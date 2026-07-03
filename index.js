@@ -23,9 +23,7 @@ const server = http.createServer((req, res) => {
       headers: {
         'Content-Type': 'application/json',
         'Content-Length': Buffer.byteLength(body),
-        'x-api-key': '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',
-        'anthropic-version': '2023-06-01',
-      },
+        'x-api-key': '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
     };
     const proxy = https.request(options, r => {
       let data = '';
